@@ -1,0 +1,12 @@
+__pycache__/*
+.locks/*
+Datasets/Train/*
+RawDatasets/FPT
+RawDatasets/pkls_done
+RawDatasets/vivos
+RawDatasets/vlsp2020_train_set_02
+RawDatasets/FPT
+Trainning/jsons
+Trainning/models
+Trainning/pkl
+Trainning/pkls_done
