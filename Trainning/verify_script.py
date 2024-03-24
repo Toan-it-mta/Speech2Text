@@ -2,7 +2,8 @@ from transformers import WhisperProcessor, WhisperForConditionalGeneration
 import pickle
 from tqdm import tqdm
 import torch
-import h5py
+from zipfile import ZipFile
+
 
 # Đặt thiết bị là GPU nếu có
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -20,7 +21,7 @@ def remove_punt(str):
     str = ' '.join(str.split())
     return str.lower()
 
-
+def 
 def save_to_hdf5(file_path, data_list):
     with h5py.File(file_path, 'w') as hdf5_file:
         for i, item in enumerate(data_list):

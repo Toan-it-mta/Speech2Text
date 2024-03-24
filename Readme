@@ -1,0 +1,4 @@
+#Repo chứa Code huấn luyện cho dự án Speech2Text
+- Datasets: Chứa thông tin các tập Train/Test đã được sử dụng để Train và Test
+- RawDatasets: Chứa các file audio và script đã thu thập được
+- Trainning: Chứa Source code huấn luyện và Test. Để Test mô hình thực hiện chạy file test.ipynb

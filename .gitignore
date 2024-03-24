@@ -1,6 +1,7 @@
 __pycache__/*
 .locks/*
 Datasets/Train/*
+Datasets/Test/*
 RawDatasets/FPT
 RawDatasets/pkls_done
 RawDatasets/vivos
@@ -10,3 +11,5 @@ Trainning/jsons
 Trainning/models
 Trainning/pkl
 Trainning/pkls_done
+RawDatasets/output_segment_audio
+RawDatasets/output_segment_audio.zip
